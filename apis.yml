@@ -1,8 +1,30 @@
 aid: bbn
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bbn.png
 name: BBN
-description: 'BBN is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  BBN (RTX BBN Technologies, formerly BBN Technologies and Raytheon BBN) is an
+  American research and development organization based in Cambridge,
+  Massachusetts, founded in 1948 and now a division of RTX Corporation. BBN has a
+  storied history in computer networking, having built the original ARPANET
+  Interface Message Processors and pioneered early email. Today it delivers
+  advanced technology for national security across AI and machine learning,
+  all-domain command and control, applied biosciences, cyber operations, spectrum
+  dominance, maritime autonomy, multi-domain sensing, resilient networking,
+  planning and logistics, quantum and photonics, and voice and language
+  processing. General Catalyst has backed BBN since 2004. BBN serves government
+  and defense customers and does not publish a public developer API, SDK, or
+  developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/bbn/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +34,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
+- Defense
+- Research and Development
+- Artificial Intelligence
+- Cybersecurity
+- Networking
+- National Security
 apis: []
+common:
+- type: Website
+  url: https://www.rtx.com/what-we-do/bbn-technologies
+- type: Company
+  url: https://www.generalcatalyst.com/companies/bbn
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
